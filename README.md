@@ -20,6 +20,7 @@ that don't work or if I've made a (spelling) mistake, please open an issue.
 
 ## Roadmap
 
+- [ ] Add alternative text to the images
 - [ ] Add filters like camera-type, location, and date
 - [ ] Add feature to display a photo full screen
 - [ ] Add details to the photos
