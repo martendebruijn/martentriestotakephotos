@@ -1,8 +1,8 @@
-# marten-tries-to-take-photos
+# martentriestotakephotos
 
 Webpage to display photo's I have made.
 
-- [marten-tries-to-take-photos](#marten-tries-to-take-photos)
+- [martentriestotakephotos](#martentriestotakephotos)
   - [Releases](#releases)
   - [Contributing](#contributing)
   - [Roadmap](#roadmap)
@@ -15,8 +15,8 @@ For a complete list of releases, please see the [changelog](./CHANGELOG.md).
 
 ## Contributing
 
-Since this is a personal project, please don't contribute. If there are somethings
-that don't work or if I've made a (spelling) mistake, please open an issue.
+Since this is a personal project, please don't contribute. If there are things that
+don't work or if I've made a (spelling) mistake, please open an issue.
 
 ## Roadmap
 
