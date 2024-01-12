@@ -4,7 +4,7 @@
     "removeComments": true,
     "sourceMap": true,
     "target": "ES2020",
-    "outDir": "src/script"
+    "outDir": "docs/script"
   },
   "watchOptions": {
     "watchFile": "useFsEvents",
@@ -14,6 +14,6 @@
     "excludeDirectories": ["**/node_modules", "_build"],
     "excludeFiles": ["build/fileWhichChangesOften.ts"]
   },
-  "include": ["./src/script-ts/**/*"],
+  "include": ["docs/script-ts/**/*"],
   "exclude": ["./node_modules/**/*"]
 }
