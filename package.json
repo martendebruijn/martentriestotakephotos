@@ -1,0 +1,32 @@
+{
+  "name": "marten-tries-to-take-photos",
+  "version": "1.0.0",
+  "description": "Webpage with photos I have taken",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write",
+    "lint": "npm run lint:css & npm run lint:es",
+    "lint:fix": "npm run lint:css:fix & npm run lint:es:fix",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:css:fix": "stylelint \"**/*.css\" --fix",
+    "lint:es": "eslint src/",
+    "lint:es:fix": "eslint src/ --fix",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "author": "Marten de Bruijn <martendebruijn@outlook.com> (https://github.com/martendebruijn)",
+  "license": "GNU AGPLv3",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-recess-order": "^4.4.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-prettier": "^5.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1"
+  }
+}
