@@ -88,7 +88,7 @@ article {
   flex-direction: column;
 }
 
-article > time {
+article time {
   display: block;
   margin-bottom: 0.5rem;
 }
