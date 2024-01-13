@@ -83,11 +83,16 @@ h2 {
   padding: 1.5rem;
 }
 
-.grid > div {
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid > article {
   max-height: 80vh;
 }
 
-.grid > div > img {
+.grid > article > img {
   display: block;
   width: 100%;
   height: 100%;
