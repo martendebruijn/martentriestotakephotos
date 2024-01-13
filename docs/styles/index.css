@@ -93,11 +93,6 @@ article time {
   margin-bottom: 0.5rem;
 }
 
-article > div {
-  border-left: solid 6px #3e3232;
-  padding-left: 0.8rem;
-}
-
 .grid > article {
   max-height: 80vh;
 }
