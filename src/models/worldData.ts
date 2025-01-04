@@ -1,0 +1,38 @@
+export interface WorldData {
+  country: string;
+  density: number;
+  abbreviation: string | null;
+  agriculture_percentage: number | null;
+  land_area_km2: number | null;
+  armed_forces_size: number | null;
+  birth_rate: number | null;
+  calling_code: number | null;
+  capital: string | null;
+  co2_emissions: number | null;
+  cPI: number | null;
+  cPI_change_percentage: number | null;
+  currency_code: string | null;
+  fertility_rate: number | null;
+  forested_area_percentage: number | null;
+  gasoline_price_usd: number | null;
+  gDP_usd: number | null;
+  gross_primary_education_enrollment_percentage: number | null;
+  gross_tertiary_education_enrollment_percentage: number | null;
+  infant_mortality: number | null;
+  largest_city: string | null;
+  life_expectancy: number | null;
+  maternal_mortality_ratio: number | null;
+  minimum_usd: number | null;
+  official_language: string;
+  out_of_pocket_health_expenditure_percentage: number | null;
+  physicians_per_thousand: number | null;
+  population: number | null;
+  population_labor_force_participation_percentage: number | null;
+  tax_revenue_percentage: number | null;
+  total_tax_revenue_percentage: number | null;
+  total_tax_rate_percentage: number | null;
+  unemployment_rate_percentage: number | null;
+  urban_population: number | null;
+  Latitude: number;
+  longitude: number;
+}
